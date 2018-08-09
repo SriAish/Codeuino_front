@@ -1,0 +1,42 @@
+body{
+  background-color: #ddd;
+  letter-spacing: 0.8px;
+}
+main{
+  margin-top: -53px;
+}
+.active{
+  color: indigo;
+}
+.btn-group{
+  display: block;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+.form-inline{
+  margin-bottom: 4px;
+}
+.btn-rt{
+  margin-top: 0;
+  float: right;
+}
+.btn-drop{
+  z-index: 10;
+}
+.btn-group:hover{
+  color: indigo;
+}
+.no-collapse{
+  position: relative;
+}
+.on-collapse{
+  display: none;
+}
+@media (max-width: 767px) {
+  .no-collapse{
+    display: none;
+  }
+  .on-collapse{
+    display: block;
+  }
+}
