@@ -5,13 +5,14 @@ body{
 main{
   margin-top: -53px;
 }
-.active{
-  color: indigo;
-}
 .btn-group{
   display: block;
   white-space: nowrap;
   overflow-x: hidden;
+  color: black;
+}
+.active .btn-group{
+  color: indigo;
 }
 .form-inline{
   margin-bottom: 4px;
@@ -26,10 +27,28 @@ main{
 .btn-group:hover{
   color: indigo;
 }
+.us-badge{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.line{
+  text-align: center;
+  line-height: 40px;
+}
 .no-collapse{
   position: relative;
 }
 .on-collapse{
+  display: none;
+}
+#mostLikedProjects{
+  display: none;
+}
+#newProjects{
+  display: none;
+}
+#eventsNearYou{
   display: none;
 }
 @media (max-width: 767px) {
