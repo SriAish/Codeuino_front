@@ -5,6 +5,10 @@ body{
 main{
   margin-top: -53px;
 }
+.btn-rounded{
+  border-width: 2px 4px;
+  border-radius: 40px;
+}
 .btn-group{
   display: block;
   white-space: nowrap;
